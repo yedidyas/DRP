@@ -1,0 +1,56 @@
+name: Server Deploy
+
+on:
+  push:
+    branches:
+      - 'main-env/**'
+
+jobs:
+  prod_deploy:
+    name: PROD-Deploy
+    runs-on: self-hosted
+    needs: pre_deploy
+    if: startsWith(github.ref,'refs/heads/main-env')
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build docker with version
+        uses: ./.github/actions/build-docker-with-version
+
+      - name: Deploy PROD
+          DOCKER_URL: ${{ secrets.PROD_DOCKER_URL }}
+        run: |
+          bash scripts/deploy/prod.sh PROD
+
+      - name: Slack Notification
+        uses: act10ns/slack@v1
+        if: failure()
+        with:
+          status: ${{ job.status }}
+
+  prod_b_deploy:
+    name: PROD-B-Deploy
+    runs-on: self-hosted
+    needs: pre_deploy
+    if: startsWith(github.ref,'refs/heads/main-env')
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build docker with version
+        uses: ./.github/actions/build-docker-with-version
+
+      - name: Deploy PROD-B
+        env:
+          DOCKER_URL: ${{ secrets.PROD_B_DOCKER_URL }}
+        run: |
+          bash scripts/deploy/prod.sh PROD-B
+
+      - name: Slack Notification
+        uses: act10ns/slack@v1
+        if: failure()
+        with:
+          status: ${{ job.status }}
