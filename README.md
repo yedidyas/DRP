@@ -17,6 +17,8 @@
 
 [DR in DevOps: How to Guarantee an Effective Disaster Recovery Plan with DevOps](https://www.bunnyshell.com/blog/disaster-recovery-devops/)
 
+["Adventures in Devops" Podcast: DR](https://open.spotify.com/episode/3haGR250LTlmVgoZ8GGGjS?si=F1-HLTRTQ4WOoieyVTPdSQ)
+
 <br/>
 
 #### AWS Services
@@ -30,6 +32,8 @@
 <br/>
 
 #### AWS Resources
+[AWS Well-Architected Framework: Recovery in the Cloud - Full PDF](https://docs.aws.amazon.com/pdfs/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.pdf)
+
 [Resiliency](https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.concept.resiliency.en.html)
 
 [Strategies for recovery in the cloud](https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-i-strategies-for-recovery-in-the-cloud/)
@@ -55,3 +59,7 @@
 [Terraform case study: use a separate repository for DRP environment](https://xebia.com/blog/aws-disaster-recovery-strategies-poc-with-terraform/)
 
 [Step by step: building a disaster recovery project with multi region replication](https://medium.com/@jerome.decoster/disaster-recovery-with-multi-region-architecture-331fec6456f)
+
+[Google's DRP guide](https://cloud.google.com/architecture/dr-scenarios-planning-guide) 
+
+[CrashPlan's DRP guide](https://www.crashplan.com/resources/guide/data-disaster-recovery-plan-using-3-2-1-backup-strategy/)
