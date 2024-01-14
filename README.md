@@ -82,6 +82,8 @@
 
 #### Google Cloud Resources
 
+[Google's DRP guide](https://cloud.google.com/architecture/dr-scenarios-planning-guide) 
+
 [Global VS Regional services](https://cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources)
 
 [Google Cloud Backup and DR - introduction](https://cloud.google.com/blog/products/storage-data-transfer/introducing-google-cloud-backup-and-dr)
@@ -96,8 +98,6 @@
 [Terraform case study: use a separate repository for DRP environment](https://xebia.com/blog/aws-disaster-recovery-strategies-poc-with-terraform/)
 
 [Step by step: building a disaster recovery project with multi region replication](https://medium.com/@jerome.decoster/disaster-recovery-with-multi-region-architecture-331fec6456f)
-
-[Google's DRP guide](https://cloud.google.com/architecture/dr-scenarios-planning-guide) 
 
 [CrashPlan's DRP guide](https://www.crashplan.com/resources/guide/data-disaster-recovery-plan-using-3-2-1-backup-strategy/)
 
