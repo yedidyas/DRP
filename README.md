@@ -3,6 +3,7 @@
 <br/>
 
 #### Code examples
+
 [IaC](https://github.com/yedidyas/DRP/tree/main/IaC)
 
 [Github Actions](https://github.com/yedidyas/DRP/tree/main/GithubActions)
@@ -10,6 +11,7 @@
 <br/>
 
 #### Recommended DRP sessions 
+
 [DRP for an account take over](https://www.youtube.com/watch?v=IOZyIEpdVGs)
 
 [AWS re:Invent 2022 - Building resilient multi-site workloads using AWS global services and Netflix case study](https://www.youtube.com/watch?v=62ZQHTruBnk)
@@ -39,6 +41,7 @@
 <br/>
 
 #### AWS Resources
+
 [AWS Well-Architected Framework: Recovery in the Cloud - Full PDF](https://docs.aws.amazon.com/pdfs/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.pdf)
 
 [Resiliency](https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.concept.resiliency.en.html)
@@ -61,6 +64,33 @@
 
 <br/>
 
+#### Azure Resources
+
+[Global VS Regional services](https://learn.microsoft.com/en-us/azure/reliability/availability-service-by-category)
+
+[Control plane VS Data plane](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/control-plane-and-data-plane)
+
+[Azure Site Recovery - product page](https://azure.microsoft.com/en-us/products/site-recovery)
+
+[Azure Site Recovery - tutorial](https://learn.microsoft.com/en-us/azure/site-recovery/)
+
+[Azure Backup - product page](https://azure.microsoft.com/en-us/products/backup)
+
+[Azure Backup - tutorial](https://learn.microsoft.com/en-us/azure/backup/backup-overview)
+
+<br/>
+
+#### Google Cloud Resources
+
+[Global VS Regional services](https://cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources)
+
+[Google Cloud Backup and DR - introduction](https://cloud.google.com/blog/products/storage-data-transfer/introducing-google-cloud-backup-and-dr)
+
+[Google Cloud Backup and DR - marketplace](https://console.cloud.google.com/marketplace/product/google/backupdr.googleapis.com?pli=1)
+
+
+<br/>
+
 #### General Resources
 
 [Terraform case study: use a separate repository for DRP environment](https://xebia.com/blog/aws-disaster-recovery-strategies-poc-with-terraform/)
@@ -70,3 +100,5 @@
 [Google's DRP guide](https://cloud.google.com/architecture/dr-scenarios-planning-guide) 
 
 [CrashPlan's DRP guide](https://www.crashplan.com/resources/guide/data-disaster-recovery-plan-using-3-2-1-backup-strategy/)
+
+
