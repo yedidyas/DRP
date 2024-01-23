@@ -78,6 +78,8 @@
 
 [Azure Backup - tutorial](https://learn.microsoft.com/en-us/azure/backup/backup-overview)
 
+[Azure Chaos Studio](https://azure.microsoft.com/en-us/products/chaos-studio/)
+
 <br/>
 
 #### Google Cloud Resources
