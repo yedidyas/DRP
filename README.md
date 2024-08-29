@@ -108,12 +108,15 @@
 
 [Gremlin](https://www.gremlin.com/)
 
+[Polly](https://www.pollydocs.org/)
 
 <br/>
 
 #### General Resources
 
 [Terraform case study: use a separate repository for DRP environment](https://xebia.com/blog/aws-disaster-recovery-strategies-poc-with-terraform/)
+
+[Resilience and Chaos Engineering in Microsoft Blog](https://devblogs.microsoft.com/dotnet/resilience-and-chaos-engineering/)
 
 [Step by step: building a disaster recovery project with multi region replication](https://medium.com/@jerome.decoster/disaster-recovery-with-multi-region-architecture-331fec6456f)
 
